@@ -24,33 +24,5 @@ I developed a hardware-accelerated solution using **NVIDIA BlueField-3 DPU** to 
 
 **Tech Stack:** `C`, `DOCA`, `DPDK`, `eBPF/XDP`, `Prometheus`, `Grafana`
     
----
-
-## Artificial Intelligence & ML
-
-### Tainan-Walker: AI-Powered Pedestrian Route Ranking
-
-Walking in tropical cities can be uncomfortable due to heat and poor infrastructure. I built an AI system that recommends walking routes based not just on distance, but on pedestrian comfort factors like shade coverage, sidewalk quality, and street conditions.
-
-The system processes extensive GIS data and uses a **Multi-Layer Perceptron** to rank potential routes. I integrated **SHAP (SHapley Additive exPlanations)** to make the model's decisions interpretable, showing exactly how factors like tree coverage influence each recommendation.
-
-**Key Features:**
-- Handles complex multi-modal urban data (satellite imagery, street networks, environmental sensors)
-- Provides explainable rankings with feature importance visualization
-- Designed for real-world deployment in urban planning contexts
-
-**Tech Stack:** `Python`, `PyTorch`, `SHAP`, `Pandas`, `GIS Tools`
-
----
-
-## Ongoing Research
-
-I'm currently exploring:
-
-- **Hardware-Accelerated Security**: Building DPU-based firewalls and intrusion detection systems that operate at network line rate
-- **Programmable Networks**: Investigating how P4-programmable switches can work alongside DPUs for smarter data center architectures
-- **Scientific Computing Infrastructure**: Contributing to open-source tools for high-performance research networks
-
----
 
 > **Open to collaborating on networking, systems performance, or ML infrastructure projects. Feel free to reach out!**
